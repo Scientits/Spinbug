@@ -14,9 +14,10 @@ class Complex{
     void Get(){
         cout << "So phuc: " << real << " " << img  << endl;
     }
-    void Sum(Complex spn1, Complex spn2){
-        spn1.real = sp1.real + sp2.real;
-        spn2.img  = sp1.img + sp2.img;
+    void Sum(Complex spn, Complex sp1, Complex sp2){
+
+        spn.real = sp1.real + sp2.real;
+        spn.img  = sp1.img + sp2.img;
 
     }
     void Modules(){
@@ -26,10 +27,16 @@ class Complex{
         int n;
         cin >> n;
         for( int i= 0; i< n;i++){
-            cin >
+
         }
     }
 int main(){
     Complex sp1, sp2;
+    cout << "nhap so phuc thu nhat: " << endl;
+    cin >> sp1.Set();
+
+    cout << "nhap so phuc thu hai: " << endl;
+    cin >> sp2.Set();
+
 
 }
